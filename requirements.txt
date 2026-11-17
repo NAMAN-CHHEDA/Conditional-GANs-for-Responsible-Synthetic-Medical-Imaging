@@ -1,0 +1,19 @@
+# Install PyTorch first for your platform: https://pytorch.org/get-started/locally/
+torch>=2.7   # RTX 50-series needs a CUDA 12.8 build: --index-url https://download.pytorch.org/whl/cu128
+torchvision>=0.22
+ray[tune,serve]>=2.9
+medmnist>=3.0
+numpy
+scipy
+pandas
+scikit-learn
+matplotlib
+pillow
+fastapi
+uvicorn
+pydantic>=2
+requests
+tensorboard
+tensorboardX
+markdown
+pytest

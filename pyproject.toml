@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gan_lab"
+version = "1.0.0"
+description = "Conditional GAN for synthetic PneumoniaMNIST + Ray Tune + Ray Serve (education only)"
+requires-python = ">=3.10"
+
+[tool.setuptools]
+packages = ["gan_lab"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

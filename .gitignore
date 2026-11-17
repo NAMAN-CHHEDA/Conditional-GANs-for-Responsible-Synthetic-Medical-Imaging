@@ -1,0 +1,12 @@
+.venv/
+data/
+runs/
+ray_results/
+outputs/
+artifacts/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+hw3a_results.zip
+.claude/
